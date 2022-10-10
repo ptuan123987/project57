@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+#news {
+    width: 1200px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#news .left-news {
+    flex-grow: 1;
+    padding-right: 50px;
+}
+
+#news .right-news {
+    flex-grow: 3;
+    position: relative;
+}
+
+#news .right-news h2 {
+    padding-bottom: 25px;
+    font-size: 30px;
+}
+
+#news .right-news h2 span {
+    background-color: #01BACF;
+    color: #fff;
+    padding: 4px 9px;
+}
+
+#news .right-news p {
+    padding-bottom: 36px;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #B0B3B2;
+}
+
+#news .right-news ul li {
+    float: left;
+    width: 260px;
+}
+
+#news .right-news ul>li>a {
+    float: left;
+    width: 260px;
+    padding-bottom: 9px;
+    font-size: 16px;
+    color: #B0B3B2;
+}
+
+#news .right-news ul li i {
+    color: #01BACF;
+    padding-right: 9px;
+}
+
+#news .right-news .btn-button {
+    margin-top: 36px;
+    position: absolute;
+    bottom: 30px;
+}
+
+#news .right-news .btn-button a {
+    padding: 16px 20px;
+    background-color: #01BACF;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 1s;
+}
+
+#news .right-news .btn-button a:hover {
+    background-color: #6cd2f2;
+    border-radius: 4px;
+}
